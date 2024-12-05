@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: white;
+  font-family: "Mona Sans", sans-serif;
+  padding: 1rem;
+}
+nav {
+  background-color: #064d4f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+.cart {
+  display: flex;
+  gap: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.bx-menu {
+  font-size: 1.8rem;
+}
+.bx-cart-add {
+  font-size: 1.8rem;
+}
+form {
+  background-color: white;
+  padding: 0.5rem;
+  width: 30%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  border: none;
+  background-color: white;
+  width: 80%;
+}
+.bx-search {
+  color: rgb(146, 145, 145);
+}
+.hajati {
+  display: flex;
+  color: white;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+}
+.moslem {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.bx-cart-download {
+  background-color: white;
+  border-radius: 50%;
+  color: grey;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+.hajati1 {
+  color: rgba(236, 89, 4, 0.793);
+}
+@media (max-width: 884px) {
+  .unique {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  .moslem {
+    display: none;
+  }
+}
+@media (max-width: 482px) {
+  .grow {
+    display: none;
+  }
+}
+@media (max-width: 482px) {
+  input {
+    display: none;
+  }
+}
