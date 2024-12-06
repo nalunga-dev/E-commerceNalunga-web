@@ -81,12 +81,245 @@ input {
   }
 }
 @media (max-width: 482px) {
-  .grow {
+  .grow,
+  .cart {
     display: none;
   }
+  form {
+    width: 250px;
+  }
 }
-@media (max-width: 482px) {
-  input {
+.first-section {
+  background-color: #064d4f;
+  margin-top: 1rem;
+  display: flex;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+.firsta {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.firsta1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.firsta2 {
+  color: white;
+  font-size: 1.2rem;
+}
+.firsta3 {
+  background-color: rgb(231, 171, 4);
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  /* width: 30%; */
+}
+.firstb {
+  width: 50%;
+}
+.vega {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+@media (max-width: 997px) {
+  .first-section {
+    width: 100%;
+  }
+  .firsta1 {
+    font-size: 1.5rem;
+  }
+  .firsta2 {
+    font-size: 0.8rem;
+  }
+  .firsta3 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 700px) {
+  .first-section {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .firsta {
+    width: 100%;
+  }
+  .firsta31 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstb {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  .vega {
+    width: 50%;
+    height: 50%;
+  }
+  .firsta1 {
+    color: white;
+    font-size: 2rem;
+  }
+  .firsta2 {
+    color: white;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 398px) {
+  .firsta1 {
+    color: white;
+    font-size: 1rem;
+  }
+  .firsta2 {
+    color: white;
+    font-size: 0.5rem;
+  }
+}
+.second-section {
+  /* background-color: red; */
+  display: flex;
+  gap: 1rem;
+  padding-top: 2.5rem;
+}
+.seconda {
+  background-color: antiquewhite;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+.secondb {
+  background-color: antiquewhite;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+.secondc {
+  background-color: antiquewhite;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+.seconda {
+  background-color: antiquewhite;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+.secondd {
+  background-color: antiquewhite;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+.seconde {
+  background-color: antiquewhite;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+
+.seconda1 {
+  color: #064d4f;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.seconda2 {
+  width: 100px;
+  height: 100px;
+}
+.secondf {
+  background-color: rgba(40, 245, 40, 0.612);
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  color: #064d4f;
+}
+.bx-right-arrow-alt {
+  background-color: white;
+  color: #064d4f;
+  padding: 1rem;
+  border-radius: 50%;
+}
+@media (max-width: 942px) {
+  .seconda,
+  .secondb,
+  .secondc,
+  .secondd,
+  .seconde {
+    width: 15%;
+  }
+  .seconda1 {
+    color: #064d4f;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .seconda2 {
+    width: 80px;
+    height: 80px;
+  }
+  .bx-right-arrow-alt {
+    background-color: white;
+    color: #064d4f;
+    padding: 0.8rem;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 719px) {
+  .seconda,
+  .secondd,
+  .seconde {
     display: none;
+  }
+  /* .secondb,
+  .secondc,
+  .secondf {
+    width: 20%;
+  } */
+  .second-section {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 }
