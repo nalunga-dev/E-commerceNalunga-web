@@ -190,69 +190,22 @@ input {
 }
 .second-section {
   /* background-color: red; */
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   gap: 1rem;
-  padding-top: 2.5rem;
+  padding: 2.5rem 0;
 }
 .seconda {
   background-color: antiquewhite;
-  width: 16%;
+  /* width: 16%; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
   gap: 1rem;
   border-radius: 1rem;
-}
-.secondb {
-  background-color: antiquewhite;
-  width: 16%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  border-radius: 1rem;
-}
-.secondc {
-  background-color: antiquewhite;
-  width: 16%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  border-radius: 1rem;
-}
-.seconda {
-  background-color: antiquewhite;
-  width: 16%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  border-radius: 1rem;
-}
-.secondd {
-  background-color: antiquewhite;
-  width: 16%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  border-radius: 1rem;
-}
-.seconde {
-  background-color: antiquewhite;
-  width: 16%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  border-radius: 1rem;
+  height: 10rem;
 }
 
 .seconda1 {
@@ -266,12 +219,7 @@ input {
 }
 .secondf {
   background-color: rgba(40, 245, 40, 0.612);
-  width: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  width: 12rem;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   color: #064d4f;
@@ -282,44 +230,70 @@ input {
   padding: 1rem;
   border-radius: 50%;
 }
-@media (max-width: 942px) {
-  .seconda,
-  .secondb,
-  .secondc,
-  .secondd,
-  .seconde {
-    width: 15%;
-  }
-  .seconda1 {
-    color: #064d4f;
-    font-size: 0.8rem;
-    font-weight: bold;
-  }
-  .seconda2 {
-    width: 80px;
-    height: 80px;
-  }
-  .bx-right-arrow-alt {
-    background-color: white;
-    color: #064d4f;
-    padding: 0.8rem;
-    border-radius: 50%;
-  }
+.third-section {
+  display: flex;
+  justify-content: space-between;
+  color: #055052;
+  align-items: center;
+  font-size: 1.2rem;
 }
-@media (max-width: 719px) {
-  .seconda,
-  .secondd,
-  .seconde {
-    display: none;
-  }
-  /* .secondb,
-  .secondc,
-  .secondf {
-    width: 20%;
-  } */
-  .second-section {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
+.see {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(210, 43, 43);
+  font-size: 1rem;
+}
+.bx-right-arrow-alt {
+  color: rgb(210, 43, 43);
+  font-size: 1rem;
+}
+.fourth-section {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 1rem;
+  padding: 2.5rem 0;
+}
+.foutha {
+  background-color: rgb(205, 205, 228);
+  /* width: 20%; */
+  height: 21rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #064d4f;
+  gap: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.beetroot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.bx-plus {
+  background-color: rgba(128, 128, 128, 0.404);
+  color: #064d4f;
+  font-size: 1rem;
+  width: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+.foutha1 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+.foutha3 {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+.fifth-section {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 1rem;
+  /* padding: 1.5rem 0; */
 }
