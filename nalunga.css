@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1134px;
+  min-height: 100vh;
+  margin: auto;
+  background-color: white;
+  font-family: "Mona Sans", sans-serif;
+  padding: 1rem;
+}
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  .seventh-section {
+    margin: 0;
+    padding: 0;
+  }
+  .one {
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    padding: 0;
+    /* margin: 0; */
+  }
+
+  .sevenA {
+    /* background-color: blue; */
+    /* width: 50%; */
+  }
+  .sevenB {
+    /* background-color: red; */
+    /* align-items: center; */
+    /* width: 50%; */
+    /* width: 100%; */
+  }
+}
+.seventh-section {
+  background-color: rgba(144, 218, 193, 0.377);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 3rem;
+  gap: 0.8rem;
+}
+.one {
+  /* background-color: rgb(198, 23, 23); */
+  width: 100%;
+  /* height: 70vh; */
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.sevenA {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 1rem;
+}
+.Dairy {
+  background-color: rgba(144, 218, 193, 0.377);
+  text-align: center;
+  border-radius: 1rem;
+  /* padding: 1rem; */
+  width: 100%;
+}
+.mini {
+  display: flex;
+  gap: 2%;
+  width: 96%;
+  border-radius: 1rem;
+}
+.miniA {
+  background-color: rgba(144, 218, 193, 0.377);
+  border-radius: 0.5rem;
+  width: 23.5%;
+  padding: 1rem;
+}
+.sevenB {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding: 1rem;
+  color: #064d4f;
+  font-size: 1rem;
+  border: 1px solid blue;
+  border-radius: 1rem;
+}
+.whet {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.whet1 {
+  color: rgba(255, 0, 0, 0.629);
+}
+.whet2 {
+  font-size: 0.8rem;
+}
+.whet4 {
+  border-bottom: 1px solid black;
+  font-size: 0.1rem;
+  width: 20%;
+}
+.button {
+  display: flex;
+  gap: 0.5rem;
+}
+.but1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.but2 {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #e5b802bc;
+  padding: 0.8rem;
+  color: #064d4f;
+}
+.but2a {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgba(185, 243, 243, 0.464);
+  padding: 0.8rem;
+  color: #064d4f;
+}
+.but3 {
+  font-size: 0.8rem;
+}
+.number {
+  display: flex;
+  gap: 1.5rem;
+}
+.two {
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two1 {
+  background-color: white;
+  width: 40%;
+  border-radius: 1rem;
+}
+.two2 {
+  background-color: #d96375d3;
+  width: 30%;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #064d4f;
+  font-weight: bold;
+}
