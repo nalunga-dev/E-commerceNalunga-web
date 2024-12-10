@@ -421,18 +421,25 @@ input:focus {
   font-size: clamp(0.8rem, 2vw, 1rem);
 }
 .eigth-section {
-  /* background-color: red; */
+  background-color: red;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border: none;
-  position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
   gap: 1rem;
 }
+.unique {
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* right: 0%; */
+}
 .eightA1 {
   background-color: #fbd0e8;
   /* width: 24%; */
+  position: relative;
+
   padding: 1.5rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -454,9 +461,6 @@ input:focus {
 .bxs-leaf {
   color: rgb(244, 23, 23);
   font-size: 1.8rem;
-  position: absolute;
-  left: 20%;
-  top: 10%;
 }
 .save {
   font-size: 1rem;
@@ -465,12 +469,10 @@ input:focus {
 .save1 {
   color: #a9411e;
   font-weight: bolder;
-  font-size: 1.5rem;
   font-size: clamp(1rem, 2vw, 1.5rem);
 }
 .save2 {
-  font-size: 0.8rem;
-  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  font-size: clamp(0.5rem, 2vw, 0.8rem);
 }
 .nineth-section {
   display: flex;
